@@ -1,0 +1,153 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+   background: #EEEE ;
+
+}
+.conteiner{
+   width: 100%;
+   max-width: 1140px;
+   padding: 0 15px;
+   margin: auto;
+}
+.header {
+   display: flex;
+   align-items: center;
+   margin-top: 15px;
+   justify-content: center;
+}
+.introductory a{
+   font-size: 11px;
+   color: black;
+   text-decoration: none;
+}
+
+.logo{
+   padding: 40px;
+   margin-left: -2%;
+   position: absolute;
+   left: -10px;
+   top: -8px;
+   display: block; 
+}
+.header__content{
+   display:flex;
+  
+   
+}
+
+
+.header__nav-items{
+   content: none;
+   height: 55px ;
+   width: 100%;
+   background: white;
+   position: absolute;
+   left:0;
+   z-index: -1;
+}
+.header__nav-items li{
+   vertical-align: middle;
+   display: inline-block;
+   float: right;
+   margin-right: 50px;
+   margin-left: 15px;
+   padding: 20px;
+}
+.header__nav-items a{
+   vertical-align: middle;
+   background-color: white ;
+   font-family: arial;
+   font-size: 8;
+   text-decoration: none;
+   color: black;
+   align-items: center;
+   text-align: right;
+}
+.header__nav-items a:hover{
+   color: orange;
+}
+.tehnology{
+   display: block;
+   background-color: white;
+   position: absolute;
+   margin: 150px;
+}
+.tehnology p{
+   font-size: 16px;
+}
+.tehnology h1{
+   
+   font-size: 24px;
+   text-align: center;
+   padding: 10px;
+}
+.door img{
+   text-align: center;
+   display: block;
+   z-index: -5;
+   padding: 350px;
+   margin-left:-190px;
+   
+
+
+}
+.conteiner{
+   max-width: 500px;
+   background-color: white;
+}
+.block2 h2{
+   font-size: 24px;
+   text-align: center;
+   padding: -20px;
+   
+
+
+}
+.block2{
+   display: block;
+   position: relative;
+   margin-bottom: 
+}
+.cards{
+   display: flex;
+   justify-content: space-between;
+}
+.cardstwo{
+   display: flex;
+   justify-content: space-between;
+   padding: 5px;
+}
+.cards3{
+   margin-right: 15px;
+}
+.cards6{
+   margin-right: 10px;
+}
+.cards1{
+   margin-left: 25px;
+}
+.cards4{
+   margin-left: 20px;
+}
+footer{
+   background-color: #494747;
+}
+footer p{
+   font-size: 16px;
+   color: white;
+
+}
+footer h1{
+   font-size: 20;
+   color: white;
+}
+footer img{
+   text-decoration:;
+}
+button{
+   color: #FA7C07;
+   
+}
